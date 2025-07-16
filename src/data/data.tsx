@@ -16,7 +16,6 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/background.jpg';
-import aboutImg from "../images/about.jpg";
 import portfolio1 from "../images/portfolio/portfolio-1.jpg";
 import portfolio2 from "../images/portfolio/portfolio-2.jpg";
 import portfolio3 from "../images/portfolio/portfolio-3.jpg";
