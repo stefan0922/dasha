@@ -88,7 +88,11 @@ const Testimonials: FC = memo(() => {
               {testimonials.map((testimonial, index) => {
                 const isActive = index === activeIndex;
                 return (
-                  <Testimonial isActive={isActive} key={`${testimonial.name}-${index}`} testimonial={testimonial} />
+                  <Testimonial
+                    isActive={isActive}
+                    key={`${testimonial.name}-${index}`}
+                    testimonial={testimonial}
+                  />
                 );
               })}
             </div>
@@ -103,7 +107,8 @@ const Testimonials: FC = memo(() => {
                     )}
                     disabled={isActive}
                     key={`select-button-${index}`}
-                    onClick={setTestimonial(index)}></button>
+                    onClick={setTestimonial(index)}
+                  ></button>
                 );
               })}
             </div>
