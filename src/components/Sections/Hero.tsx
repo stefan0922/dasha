@@ -1,3 +1,4 @@
+/* eslint-disable react-memo/require-usememo */
 import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
@@ -24,18 +25,16 @@ const Hero: FC = memo(() => {
   ]), []);
 
   const heroButtonElements = heroButtons.map((button) =>
-    React.useMemo(() => (
-      <a
-        className={classNames(
-          'flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base',
-          button.primary ? 'border-orange-500 ring-orange-500' : 'border-white ring-white',
-        )}
-        href={button.href}
-        key={button.label}
-      >
-        {button.label}
-      </a>
-    ), [button])
+    <a
+      className={classNames(
+        'flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base',
+        button.primary ? 'border-orange-500 ring-orange-500' : 'border-white ring-white',
+      )}
+      href={button.href}
+      key={button.label}
+    >
+      {button.label}
+    </a>
   );
 
   return (
