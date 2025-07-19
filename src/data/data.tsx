@@ -339,8 +339,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'holubdasha@gmail.com',
-      href: 'mailto:holubdasha@gmail.com',
+      text: 'dasha@example.com',
+      href: 'mailto:dasha@example.com',
     },
     {
       type: ContactType.Location,
@@ -349,12 +349,12 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Instagram,
-      text: '@h2000',
+      text: 'Private',
       href: '',
     },
     {
       type: ContactType.Github,
-      text: '@h2000',
+      text: 'Private',
       href: '',
     },
   ],
