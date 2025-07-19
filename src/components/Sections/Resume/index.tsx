@@ -18,10 +18,10 @@ const Resume: FC = memo(() => {
         </ResumeSection>
         <div style={{display:'flex', padding:'10px 0px '}}>
             <div style={{width:'50%'}}>
-              <a href="https://www.hackerrank.com/certificates/iframe/0965d1f32c96"><img src="/c_1.png" style={{width:'80%', marginLeft:'10%', boxShadow:'0px 3px 3px 0px rgba(0,0,0,0.7)'}} alt="" /></a>
+              <a href="https://www.hackerrank.com/certificates/iframe/0965d1f32c96"><img alt="" src="/c_1.png" style={{width:'80%', marginLeft:'10%', boxShadow:'0px 3px 3px 0px rgba(0,0,0,0.7)'}} /></a>
             </div>
             <div style={{width:'50%'}}>
-              <a href="https://www.hackerrank.com/certificates/iframe/644e79bf4aea"><img src="/c_2.png" style={{width:'80%', marginLeft:'10%', boxShadow:'0px 3px 3px 0px rgba(0,0,0,0.7)'}} alt="" /></a>
+              <a href="https://www.hackerrank.com/certificates/iframe/644e79bf4aea"><img alt="" src="/c_2.png" style={{width:'80%', marginLeft:'10%', boxShadow:'0px 3px 3px 0px rgba(0,0,0,0.7)'}} /></a>
             </div>
         </div>
         <ResumeSection title="Stack">
