@@ -364,9 +364,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/@h2000'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/@h2000/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/@h2000/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/@h2000'},
+  {label: 'Github', Icon: GithubIcon, href: 'Private'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'Private'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'Private'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'Private'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'Private'},
 ];
