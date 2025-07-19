@@ -78,18 +78,18 @@ console.log("secret_name", secret_name);
 export const heroData: Hero = {
   
   imageSrc: heroImage,
-  name: `My name is - ${process.env.NEXT_PUBLIC_NAME}`,
+  name: `My name is - Dasha.Holub`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Ukraine based <strong className="text-stone-100">{process.env.NEXT_PUBLIC_STACK}</strong>, currently working
-        at in samll TEAM helping build {process.env.NEXT_PUBLIC_SKILL}  and site builder.
+        I'm a Ukraine based <strong className="text-stone-100">FULLSTACK,SHOPIFY,WORDPRESS,SCRAPING,AUTOMATION</strong>, currently working
+        at in samll TEAM helping build FullStack,  Shopify, Wordpress and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        {process.env.NEXT_PUBLIC_LIKE}
+        In my free time, I enjoy playing soccer, swimming, table tennis, and playing the guitar and piano. I also like singing, but it's really hard to live without music.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        {process.env.NEXT_PUBLIC_DISLIKE}
+        I really hate noisy when I work. and scammer.
       </p>
     </>
   ),
@@ -113,17 +113,17 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `My name is Dasha Holuba, and I’m a Shopify expert with years of hands-on experience creating high-converting, beautifully designed, and fully functional Shopify stores. I specialize in everything from store setup and theme customization to dropshipping integration, automation, and performance optimization.
-I’ve helped clients across various industries launch their eCommerce businesses with confidence — ensuring clean UI/UX, fast load times, mobile responsiveness, and a seamless customer journey. Whether you're starting from scratch or looking to improve an existing store, I bring both the technical skills and creative eye to deliver real results.
-I’m also experienced in working with tools like DSers, Oberlo, Klaviyo, and custom app integrations, and I always stay up-to-date with Shopify’s latest features and best practices.
+  description: `My name is Dasha Holuba, and I am a Shopify expert with years of hands-on experience creating high-converting, beautifully designed, and fully functional Shopify stores. I specialize in everything from store setup and theme customization to dropshipping integration, automation, and performance optimization.
+I have helped clients across various industries launch their eCommerce businesses with confidence — ensuring clean UI/UX, fast load times, mobile responsiveness, and a seamless customer journey. Whether you're starting from scratch or looking to improve an existing store, I bring both the technical skills and creative eye to deliver real results.
+I am also experienced in working with tools like DSers, Oberlo, Klaviyo, and custom app integrations, and I always stay up-to-date with Shopify’s latest features and best practices.
 Every project I take on is done with care, attention to detail, and friendly, responsive communication. I believe in building not just stores, but strong, trusting relationships with my clients.
 
 Looking forward to possibly working together! 💛`,
   aboutItems: [
-    {label: 'Location', text: process.env.NEXT_PUBLIC_COUNTRY+"", Icon: MapIcon},
+    {label: 'Location', text:'Ukraine', Icon: MapIcon},
     {label: 'Age', text: '25', Icon: CalendarIcon},
-    {label: 'Nationality', text: process.env.NEXT_PUBLIC_NATION + "", Icon: FlagIcon},
-    {label: 'Interests', text: process.env.NEXT_PUBLIC_LIKE+"", Icon: SparklesIcon},
+    {label: 'Nationality', text: 'Ukrainian', Icon: FlagIcon},
+    {label: 'Interests', text: 'In my free time, I enjoy playing soccer, swimming, table tennis, and playing the guitar and piano. I also like singing, but it is really hard to live without music.', Icon: SparklesIcon},
     {label: 'Study', text: 'College', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Remote-Working', Icon: BuildingOffice2Icon},
   ],
@@ -192,7 +192,7 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
+    title: 'WORDPRESS PROJECT',
     description: 'Give a short description of your project here.',
     url: '#',
     image: portfolio1,
@@ -204,15 +204,15 @@ export const portfolioItems: PortfolioItem[] = [
     image: portfolio2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: '#',
+    title: 'WORDPRESS HOMEDESIGN',
+    description: 'I am a contributer this page.',
+    url: 'http://https://www.welshoakframe.com/',
     image: portfolio3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: '#',
+    title: 'WOMAN SHOP',
+    description: 'This is only source code demo. can see github!',
+    url: 'http://arn-womanshop.vercel.app',
     image: portfolio4,
   },
   {
@@ -246,15 +246,15 @@ export const portfolioItems: PortfolioItem[] = [
     image: portfolio9,
   },
   {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: '#',
+    title: 'ANIMAL TOOLS SHOP',
+    description: 'I am a contributer all of this site!',
+    url: 'http://furggo.com',
     image: portfolio10,
   },
   {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: '#',
+    title: 'WORDPRESS EXPRESS STATIONERY',
+    description: 'Simple project for expressstationery.com',
+    url: 'http://expressstationery.com',
     image: portfolio11,
   },
 ];
@@ -264,7 +264,7 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'I learned from several SENIOR Teachers and train hardly!',
+    date: '',
     location: '',
     title: '',
     content: <p></p>,
