@@ -1,4 +1,4 @@
-import { EnvelopeIcon } from '@heroicons/react/24/outline';
+import {EnvelopeIcon} from '@heroicons/react/24/outline';
 // import {DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon} from '@heroicons/react/24/outline';
 // import classNames from 'classnames';
 import {FC, memo} from 'react';
@@ -62,10 +62,10 @@ const Contact: FC = memo(() => {
               })} */}
               <div style={{display:'flex'}}>
                 <div>
-                  <img src="c_1.png" style={{borderRadius:'50%', border:'3px solid white'}} alt="" />
+                  <img alt="cert" src="c_1.png" style={{borderRadius:'50%', border:'3px solid white'}}  />
                 </div>
                 <div>
-                  <img src="c_2.png" style={{borderRadius:'50%', border:'3px solid white'}}  alt="" />
+                  <img alt="cert" src="c_2.png" style={{borderRadius:'50%', border:'3px solid white'}}   />
                 </div>
               </div>
             </dl>
